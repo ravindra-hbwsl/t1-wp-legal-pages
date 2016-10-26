@@ -1,114 +1,134 @@
-=== Plugin Name ===
-Contributors: (this should be a list of wordpress.org userid's)
-Donate link: http://example.com/
-Tags: comments, spam
-Requires at least: 3.0.1
-Tested up to: 3.4
-Stable tag: 4.3
+=== WP Legal Pages ===
+Contributors: pallavi.chanodia, sandyr, WPEka Club
+Donate link:https://club.wpeka.com/product/wplegalpages
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Legal Pages, Business Law, law,lawyer, legal, Digital Millennium Copyright Act, DMCA, disclaimer, Google, Linking policy, External links policy, Terms and conditions, Refund policy, Affiliate disclosure, Privacy Policy, Affiliate agreement, FB privacy policy, Earnings Disclaimer, Antispam template, Double dart cookie, Disclaimer, FTC statement, Medical disclaimer, Testimonials disclosure, Amazon affiliate, Legal Template, About us, Terms of use, EU cookies
+Requires at least: 3.1+
+Tested up to: 4.6.1
+Stable tag: trunk
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+WP Legal Pages is a simple 1 click legal page management plugin. You can quickly add in legal pages to your WordPress sites.
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+WP Legal Pages is a simple 1 click legal pages management plugin. You can quickly add in legal pages to your wordpress sites.
+All you have to do is enter your business details and just click save. And legal pages will be ready for you.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+Pages included:
+<ul>
+<li>Privacy Policy</li>
+<li>DMCA Policy</li>
+</ul>
+We have a <a href="https://club.wpeka.com/product/wplegalpages/">PRO version</a> of this plugin. It includes 18 legal page templates required by different sites.
 
-A few notes about the sections above:
 
-*   "Contributors" is a comma separated list of wp.org/wp-plugins.org usernames
-*   "Tags" is a comma separated list of tags that apply to the plugin
-*   "Requires at least" is the lowest version that the plugin will work on
-*   "Tested up to" is the highest version that you've *successfully used to test the plugin*. Note that it might work on
-higher versions... this is just the highest one you've verified.
-*   Stable tag should indicate the Subversion "tag" of the latest stable version, or "trunk," if you use `/trunk/` for
-stable.
+<h4>List of all the 19 templates included with PRO version : </h4>
 
-    Note that the `readme.txt` of the stable tag is the one that is considered the defining one for the plugin, so
-if the `/trunk/readme.txt` file says that the stable tag is `4.3`, then it is `/tags/4.3/readme.txt` that'll be used
-for displaying information about the plugin.  In this situation, the only thing considered from the trunk `readme.txt`
-is the stable tag pointer.  Thus, if you develop in trunk, you can update the trunk `readme.txt` to reflect changes in
-your in-development version, without having that information incorrectly disclosed about the current stable version
-that lacks those changes -- as long as the trunk's `readme.txt` points to the correct stable tag.
+<ol>
+  <li>California Privacy Rights <strong>(NEW)!!</strong></li>
+ 	<li>Terms of use <strong>(forced agreement - don't allow your users to proceed without agreeing to your terms)</strong></li>
+ 	<li>Linking policy template</li>
+ 	<li>External links policy template</li>
+ 	<li>Terms and conditions template</li>
+ 	<li>Refund policy template</li>
+ 	<li>Affiliate disclosure template</li>
+ 	<li>Privacy Policy template</li>
+ 	<li>Affiliate agreement template</li>
+ 	<li>FB privacy policy template</li>
+ 	<li>Earnings Disclaimer template</li>
+ 	<li>Antispam template</li>
+ 	<li>Double dart cookie template</li>
+ 	<li>Disclaimer template</li>
+ 	<li>FTC statement template</li>
+ 	<li>Medical disclaimer template</li>
+ 	<li>Testimonials disclosure template</li>
+ 	<li>Amazon affiliate template</li>
+ 	<li>DMCA policy</li>
+</ol>
 
-    If no stable tag is provided, it is assumed that trunk is stable, but you should specify "trunk" if that's where
-you put the stable version, in order to eliminate any doubt.
+<h3>Features included: </h3>
+
+<h4>Easy to install & use </h4>
+<p>This plugin can be installed and legal pages added to your website in 5 minutes or less! Average users is seeing about that setup time…
+For advanced usage of creating unlimited templates, advanced flexibility, ready to use templates and exporting importing the templates and settings, you can use the <a href="http://wplegalpages.com">WP Legal Pages</a> plugin.</p>
+
+<h4>Forced agreement option</h4>
+<p>Force your website visitors to agree to your Terms, Privacy policy, etc. using our lock down features. This can be used on both your WordPress pages and posts! This is a very flexible option as you can put any text in this forced option.</p>
+
+<h4>Easy to edit pages</h4>
+<p>The pages that you create with our templates are full functioning WordPress pages, so they show up in your pages listings and are just as easy to edit and make changes to. So you have full WYSIWYG editors and tiny MCE options just like with any other page!</p>
+
+<h4>Pre-built templates</h4>
+<p>Easy To Install WP Legal pages is super easy to install. Just upload the zip file, fill in your business information to be injected into the pre-made templates, and then choose which templates out of the library you want to publish, click the button and you have your legal pages up!</p>
+
+<h4>One-click affiliate disclosure addition</h4>
+<p>Easy to add affiliate disclosure at the end of any post or page. FTC guidelines asks everyone to have a affiliate disclosure if any affiliate links are added in the content. With WPLegalPages, all you have to do is check the affiliate disclosure option on the editor page.</p>
+
+Few of the Key Features: 1. Pre-built Legal Templates 2. Easy To Edit Pages 3. Powerful & Simple WP Plugin
+
+= Features of WP Legal Pages Pro =
+1. Total number of 19 templates are available
+2. Supports widget
+3. <a href="https://club.wpeka.com/product/wplegalpages/">WP Legal Pages Pro </a> is also available as part of <a href="https://club.wpeka.com/">WPEKa WordPress Plugin Club</a>
+
+[youtube https://www.youtube.com/watch?v=xmbyFmEQCNc]
+
+* [Upgrade Today](https://club.wpeka.com/product/wplegalpages/)
 
 == Installation ==
+1. Download the plugin file, unzip and place it in your wp-content/plugins/ folder. You can alternatively upload it via the WordPress plugin backend.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. WP Legal Pages menu will appear in left hand side. Click on it & get started to use.
+4. Refer to the <a href="http://wplegalpages.com/">resources</a> section for usage details.
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+== Screenshots ==
+1. disclaimer before using the plugin.png
+2. general settings page.png
+3. legal templates.png
+4. adding legal page as popup.png
+5. affiliate disclosure.png
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Why use WPLegalPages? =
+Privacy policy, terms and conditions are legal documents which are required by law and some businesses tend to overlook it. This plugin allows you to create your own legal page documents for your WordPress site.
 
-An answer to that question.
+= How to use WPLegalPages? =
+Go to plugin Settings >> Accept the disclaimer >> Fill in business details >> Click create legal pages >> Select the type of legal template >> Publish.
+You can also use shortcodes of each template and save it as a post or page.
 
-= What about foo bar? =
+= Will it protect my website? =
+Yes. The templates are created in accordance with the US website laws and by consulting lawyers. However, if there are changes in the laws, you might have to contact your internet lawyers. If you find any template not adhering to latest laws, do let us know at support@wpeka.com.
 
-Answer to foo bar dilemma.
-
-== Screenshots ==
-
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
-
-== Changelog ==
-
-= 1.0 =
-* A change since the previous version.
-* Another change.
-
-= 0.5 =
-* List versions from most recent at top to oldest at bottom.
+= Can it be used for multisite network? =
+This plugin does not support multisite network. You will have to install it on each site separately.
 
 == Upgrade Notice ==
+= 1.5.2 =
+Compatible with PHP 7.0.
 
-= 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
+= 1.5.1 =
+Added lest of Pro templates
 
-= 0.5 =
-This version fixes a security related bug.  Upgrade immediately.
+= 1.5 =
+Added new DMCA template
 
-== Arbitrary section ==
+= 1.4 =
+Updated for Compatibility with WP 4.5.3. Improved Admin Dashboard for easy creation of policy pages
 
-You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
+= 1.3 =
+*WPLegal Pages is now compatible WordPress 4.5.
 
-== A brief Markdown Example ==
+= 1.2 =
+*Added banner to upgrade WPLegal Pages Pro version on plugin dashboard
 
-Ordered list:
+= 1.1 =
+*Enhanced security
 
-1. Some feature
-1. Another feature
-1. Something else about the plugin
+= 1.0.0 =
+Base version of the plugin.
 
-Unordered list:
 
-* something
-* something else
-* third thing
-
-Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-Titles are optional, naturally.
-
-[markdown syntax]: http://daringfireball.net/projects/markdown/syntax
-            "Markdown is what the parser uses to process much of the readme file"
-
-Markdown uses email style notation for blockquotes and I've been told:
-> Asterisks for *emphasis*. Double it up  for **strong**.
-
-`<?php code(); // goes in backticks ?>`
+== Official Site ==
+For more information and to take a look at the advanced WP Legal Pages version, visit our website - <a href="http://wplegalpages.com/">WP Legal Pages version</a>.

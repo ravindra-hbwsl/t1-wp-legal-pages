@@ -103,8 +103,7 @@ class WP_Legal_Pages_Loader {
 			'callback'      => $callback,
 			'priority'      => $priority,
 			'accepted_args' => $accepted_args
-		);
-
+		);                
 		return $hooks;
 
 	}

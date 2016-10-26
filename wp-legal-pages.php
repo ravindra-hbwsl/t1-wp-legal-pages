@@ -54,7 +54,7 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-wp-legal-pages.php';
 function run_wp_legal_pages() {
 
 	$legal_pages = new WP_Legal_Pages();
-//	$plugin->run();
+	$legal_pages->run();
 
 }
 run_wp_legal_pages();

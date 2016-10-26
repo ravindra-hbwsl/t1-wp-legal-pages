@@ -12,7 +12,7 @@ if(isset($_POST['lp_submit']) && $_POST['lp_submit']=='Accept'){
 <div style="width:1000px;float:left;">
 	<div style="line-height: 2.4em;">
 	<a href="https://club.wpeka.com/product/wplegalpages/" target="_blank">
-	<img src="<?php echo WP_PLUGIN_URL.'/wp-legal-pages/admin/images/image.jpg'; ?>">
+            <img alt="Upgrade to Pro" src="<?php echo WP_PLUGIN_URL.'/wp-legal-pages/admin/images/upgrade-to-pro.jpg'; ?>">
 	</a>
 	</div>
 	<h1>WP Legal Pages</h1>

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * The admin-specific functionality of the WP Legal Pages.
+ * The Admin-specific functionality of the WP Legal Pages.
  *
  * @link       http://wplegalpages.com/
  * @since      1.5.2
@@ -48,7 +48,6 @@ class WP_Legal_Pages_Admin {
 	 * @param      string    $version    The version of this WP Legal Pages.
 	 */
 	public function __construct( $plugin_name, $version ) {
-
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
 
@@ -72,8 +71,9 @@ class WP_Legal_Pages_Admin {
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
-                error_log(">>>>>>".print_r(plugin_dir_url( __FILE__ ) . 'css/wp-legal-pages-admin.css',true));
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/wp-legal-pages-admin.css', array(), $this->version, 'all' );
+//                error_log(">>>>>>enqueue style".print_r(plugin_dir_url( __FILE__ ) . 'css/wp-legal-pages-admin1.css',true));
+		wp_enqueue_style( $this->plugin_name."-admin", plugin_dir_url( __FILE__ ) . 'css/wp-legal-pages-admin.css', array(), $this->version, 'all' );
+                wp_enqueue_style( $this->plugin_name."-bootstrap", plugin_dir_url( __FILE__ ) . 'css/bootstrap.min.css', array(), $this->version, 'all' );                
 
 	}
 
@@ -99,5 +99,78 @@ class WP_Legal_Pages_Admin {
 //		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/plugin-name-admin.js', array( 'jquery' ), $this->version, false );
 
 	}
+        
+       /**
+        * This function is provided for wordpress dashbord menus.
+        *
+        * An instance of this class should be passed to the run() function
+        * defined in WP_Legal_Pages_Loader as all of the hooks are defined
+        * in that particular class.
+        *
+        * The WP_Legal_Pages_Loader will then create the relationship
+        * between the defined hooks and the functions defined in this
+        * class.
+        */
+	public function admin_menu() {
+            
+		add_menu_page(__('Legal Pages','legal-pages'), 'Legal Pages', 'manage_options', 'legal-pages', array($this, 'admin_setting'));
+                $terms = get_option('lp_accept_terms');
+                if($terms == 1){
+                        add_submenu_page(__('legal-pages','legal-pages'), 'Settings', 'Settings', 'manage_options', 'legal-pages', array($this, 'admin_setting'));
+                        add_submenu_page(__('legal-pages','legal-pages'), 'Legal Pages', 'Legal Pages', 'manage_options', 'lp-show-pages', array($this, 'show_pages'));
+                        add_submenu_page(__('legal-pages','legal-pages'), 'Create Page', 'Create Page', 'manage_options', 'lp-create-page', array($this, 'create_page'));
+                }
+
+	} 
+        
+        /**
+        * This Callback function for Admin Seetting menu for WP Legal pages.
+        *
+        * An instance of this class should be passed to the run() function
+        * defined in WP_Legal_Pages_Loader as all of the hooks are defined
+        * in that particular class.
+        *
+        * The WP_Legal_Pages_Loader will then create the relationship
+        * between the defined hooks and the functions defined in this
+        * class.
+        */
+        function admin_setting()
+        {            
+            include_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/admin-settings.php';   
+        }
+        
+        /**
+        * This Callback function for Admin Create Page menu for WP Legal pages.
+        *
+        * An instance of this class should be passed to the run() function
+        * defined in WP_Legal_Pages_Loader as all of the hooks are defined
+        * in that particular class.
+        *
+        * The WP_Legal_Pages_Loader will then create the relationship
+        * between the defined hooks and the functions defined in this
+        * class.
+        */
+        
+        function create_page()
+        {
+             include_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/create-page.php';   
+        }
+        
+       /**
+        * This Callback function for Admin Show Pages menu for WP Legal pages.
+        *
+        * An instance of this class should be passed to the run() function
+        * defined in WP_Legal_Pages_Loader as all of the hooks are defined
+        * in that particular class.
+        *
+        * The WP_Legal_Pages_Loader will then create the relationship
+        * between the defined hooks and the functions defined in this
+        * class.
+        */
+
+        function show_pages()
+        {
+            include_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/show-pages.php';   
+        }
 
 }
